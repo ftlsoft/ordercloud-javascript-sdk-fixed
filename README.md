@@ -1,7 +1,8 @@
 <!! SHFY !!>
 
 #Build and publish ordercloud client SDK npm package
-npm i
+
+npm install
 
 -- Bump build version in package.json
 
