@@ -7,9 +7,13 @@ import Configuration from '../Configuration'
  * @ignore
  * not part of public api, don't include in generated docs
  */
-const isNode = new Function(
-  'try {return this===global;}catch(e){return false;}'
-)
+// const isNode = new Function(
+//   'try {return this===global;}catch(e){return false;}'
+// )
+function isNode() {
+  return typeof window === 'undefined'
+}
+
 class Tokens {
   private accessTokenCookieName = `.access-token`
   private impersonationTokenCookieName = '.impersonation-token'

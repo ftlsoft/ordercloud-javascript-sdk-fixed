@@ -1,3 +1,23 @@
+<!! SHFY !!>
+
+#Build and publish ordercloud client SDK npm package
+npm i
+
+-- Bump build version in package.json
+
+npm run build
+npm pack
+
+-- .npmrc file must point to ours artifacts repository
+
+npm publish
+
+#in frontend project:
+npm update ordercloud-javascript-sdk-fixed
+
+
+
+
 <!-- omit in toc -->
 # OrderCloud
 
