@@ -27,6 +27,7 @@ export type ApiRole = 'ApiClientAdmin' |
 'CostCenterReader' | 
 'CreditCardAdmin' | 
 'CreditCardReader' | 
+'EntitySyncConfigAdmin' | 
 'FullAccess' | 
 'IncrementorAdmin' | 
 'IncrementorReader' | 
@@ -88,4 +89,5 @@ export type ApiRole = 'ApiClientAdmin' |
 'TrackingEventReader' | 
 'TrackingEventAdmin' | 
 'DeliveryConfigAdmin' | 
-'OrderSyncConfigAdmin'
+'OrderSyncConfigAdmin' | 
+'ErrorConfigAdmin'

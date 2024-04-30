@@ -5,6 +5,39 @@ All notable changes to the ordercloud-javascript-sdk will be documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [6.0.7] - 2024-04-17
+- Bring SDK up to date with API [v1.0.338](https://ordercloud.io/release-notes/v1.0.338)
+
+# [6.0.6] - 2024-04-03
+- Bring SDK up to date with API [v1.0.333](https://ordercloud.io/release-notes/v1.0.333)
+
+# [6.0.5] - 2024-03-28
+- Bring SDK up to date with API [v1.0.332](https://ordercloud.io/release-notes/v1.0.332), which adds Suppliers to Entity Sync
+
+# [6.0.4] - 2024-03-20
+### Fixed
+- Error when trying to set token in edge runtime because trying to use document in server environment
+
+# [6.0.3] - 2024-03-19
+- Bring SDK up to date with API [v1.0.328](https://ordercloud.io/release-notes/v1.0.328), which adds Admin, Buyer and Supplier users to Entity Sync
+
+# [6.0.2] - 2024-03-13
+- Bring SDK up to date with API [v1.0.327](https://ordercloud.io/release-notes/v1.0.327)
+
+# [6.0.1] - 2024-03-05
+- Bring SDK up to date with API [v1.0.325](https://ordercloud.io/release-notes/v1.0.325), which introduces Entity sync
+
+# [6.0.0] - 2024-03-05
+- Bring SDK up to date with API [v1.0.324](https://ordercloud.io/release-notes/v1.0.324) 
+- This version includes a breaking change where forgotten passwords and forgotten usernames have been consolidated under ForgottenCredentials
+
+# [5.3.0] - 2024-02-08
+- Bring SDK up to date with API [v1.0.320](https://ordercloud.io/release-notes/v1.0.320) which adds IsOnSale to line items as well as a new error config endpoint
+- Adds a new method for retrieving an identity token used by the Discover 2 proxy. More details in our [product sync documentation](https://ordercloud.io/knowledge-base/productsync)
+
+## [5.2.4] - 2023-12-18
+- Bring SDK up to date with [API v1.0.315](https://ordercloud.io/release-notes/v1.0.315) which adds routes to Cart API for setting and updating one time shipping and billing addresses
+
 ## [5.2.3] - 2023-11-06
 - Fixes broken links within the SDK documentation
 

@@ -1,5 +1,5 @@
 import SecurityProfiles from './SecurityProfiles';
-import ForgottenPassword from './ForgottenPassword';
+import ForgottenCredentials from './ForgottenCredentials';
 import ImpersonationConfigs from './ImpersonationConfigs';
 import Certs from './Certs';
 import OpenIdConnects from './OpenIdConnects';
@@ -47,17 +47,20 @@ import Subscriptions from './Subscriptions';
 import Me from './Me';
 import TrackingEvents from './TrackingEvents';
 import DeliveryConfigurations from './DeliveryConfigurations';
+import EntitySynchronization from './EntitySynchronization';
+import ErrorConfigs from './ErrorConfigs';
 import IntegrationEvents from './IntegrationEvents';
 import MessageSenders from './MessageSenders';
 import OrderSynchronization from './OrderSynchronization';
 import ProductSynchronization from './ProductSynchronization';
 import SubscriptionIntegrations from './SubscriptionIntegrations';
 import Auth from './Auth';
+import UserInfo from './UserInfo';
 import Tokens from './Tokens';
 
 export {
     SecurityProfiles,
-    ForgottenPassword,
+    ForgottenCredentials,
     ImpersonationConfigs,
     Certs,
     OpenIdConnects,
@@ -105,11 +108,14 @@ export {
     Me,
     TrackingEvents,
     DeliveryConfigurations,
+    EntitySynchronization,
+    ErrorConfigs,
     IntegrationEvents,
     MessageSenders,
     OrderSynchronization,
     ProductSynchronization,
     SubscriptionIntegrations,
     Auth,
+    UserInfo,
     Tokens
 }

@@ -5,6 +5,9 @@ import { SendEvent } from './SendEvent';
 import { DiscoverEvent } from './DiscoverEvent';
 import { EventHubConfig } from './EventHubConfig';
 import { AzureBlobConfig } from './AzureBlobConfig';
+import { AzureTableConfig } from './AzureTableConfig';
+import { MandrillConfig } from './MandrillConfig';
+import { MessageSenderConfig } from './MessageSenderConfig';
 
 export interface DeliveryTargets {
     Kafka?: KafkaConfig
@@ -14,4 +17,7 @@ export interface DeliveryTargets {
     DiscoverEvent?: DiscoverEvent
     EventHub?: EventHubConfig
     AzureBlob?: AzureBlobConfig
+    AzureTable?: AzureTableConfig
+    Mandrill?: MandrillConfig
+    MessageSender?: MessageSenderConfig
 }
