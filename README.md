@@ -1,5 +1,7 @@
 <!! SHFY !!>
 
+edit codegen\templates\api\Tokens.ts
+
 #Build and publish ordercloud client SDK npm package
 
 npm install
@@ -7,6 +9,9 @@ npm install
 -- Bump build version in package.json
 
 npm run build
+
+## this will generate new src\api\Tokens.ts
+
 npm pack
 
 -- .npmrc file must point to ours artifacts repository

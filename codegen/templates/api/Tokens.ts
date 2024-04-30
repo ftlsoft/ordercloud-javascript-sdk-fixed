@@ -7,9 +7,9 @@ import Configuration from '../Configuration'
  * @ignore
  * not part of public api, don't include in generated docs
  */
-const isNode = new Function(
-  'try {return this===global;}catch(e){return false;}'
-)
+function isNode() {
+  return typeof window === 'undefined'
+}
 
 // https://nextjs.org/docs/app/building-your-application/optimizing/instrumentation#importing-runtime-specific-code
 /**
